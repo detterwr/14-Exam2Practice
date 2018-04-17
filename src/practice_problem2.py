@@ -202,6 +202,15 @@ def practice_problem2b(sequence):
     #    TIME ESTIMATE:   10 minutes.
     ####################################################################
 
+    thestring = ''
+    for k in range(len(sequence)):
+        if (sequence[k]) == '':
+            thestring = thestring
+        else:
+            thestring = thestring + (sequence[k])[0]
+    return thestring
+
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
